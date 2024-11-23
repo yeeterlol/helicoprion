@@ -1,14 +1,14 @@
 ﻿using GDWeave;
 
-namespace WebfishingSampleMod;
+namespace Helicoprion;
 
 public class Mod : IMod {
     public Config Config;
 
     public Mod(IModInterface modInterface) {
         this.Config = modInterface.ReadConfig<Config>();
-        modInterface.RegisterScriptMod(new ExampleScriptMod());
-        modInterface.Logger.Information("Hello, world!");
+        modInterface.Logger.Information("Helicoprion 0.0.1 loaded");
+        modInterface.RegisterScriptMod(new AnticheatPlayer());
     }
 
     public void Dispose() {

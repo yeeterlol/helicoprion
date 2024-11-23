@@ -2,10 +2,10 @@
 using GDWeave.Godot.Variants;
 using GDWeave.Modding;
 
-namespace WebfishingSampleMod;
+namespace Helicoprion;
 
-public class ExampleScriptMod : IScriptMod {
-    public bool ShouldRun(string path) => path == "res://Scenes/Singletons/SteamNetwork.gdc";
+public class AnticheatPlayer : IScriptMod {
+    public bool ShouldRun(string path) => path == "res://Scenes/Entities/player.gdc";
 
     // returns a list of tokens for the new script, with the input being the original script's tokens
     public IEnumerable<Token> Modify(string path, IEnumerable<Token> tokens) {

@@ -1,17 +1,16 @@
 
-id = "WebfishingSampleMod"
-name = "Webfishing Sample Mod"
-description = "This is a sample mod."
-version = "1.0.0"
-homepage = "https://github.com/NotNite/WebfishingSampleMod"
-author = "You!"
+id = "helicoprion"
+name = "Helicoprion"
+description = "A proof of concept anticheat for Webfishing"
+version = "0.0.1"
+homepage = "https://github.com/yeeterlol/helicoprion"
+author = "yeeter"
 
 icon = "icon.png"
 readme = "README.md"
 
 [project]
 csharp = "./WebfishingSampleMod/WebfishingSampleMod.csproj"
-godot = "./project/project.godot"
 
 [[dependencies]]
 thunderstore_version = "NotNet-GDWeave-2.0.14"
