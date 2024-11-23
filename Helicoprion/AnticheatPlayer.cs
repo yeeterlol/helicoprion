@@ -75,7 +75,7 @@ public class AnticheatPlayer : IScriptMod {
                 yield return new Token(TokenType.Period);
                 yield return new IdentifierToken("_send_notification");
                 yield return new Token(TokenType.ParenthesisOpen);
-                yield return new ConstantToken(new StringVariant("Helicoprion | Crash [A]"));
+                yield return new ConstantToken(new StringVariant("Helicoprion | Crash [B]"));
                 yield return new Token(TokenType.ParenthesisClose);
                 yield return new Token(TokenType.Newline, 2);
                 yield return new IdentifierToken("PlayerData");
